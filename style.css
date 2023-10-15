@@ -880,9 +880,34 @@ button{
 
 
 
+.ct-section{
+    width: 1200px;
+    margin: 0 80px;
+}
+.ct-section .cert li {
+    margin: 0 150px;
+    font-weight: 500;
+    color: #e02f6b;
+    list-style: "> ";
+    padding: 5px 5px;
+}
+.ct-section .cert li a{
+    color: #e02f6b;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.ct-section .cert li a:hover{
+    color:#18293c;
+}
 
 
 
+
+.contact-section{
+    width: 1200px;
+    margin-left: 80px;
+}
 .contact-form,
 .contact-info {
     width: 50%;
